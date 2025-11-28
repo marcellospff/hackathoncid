@@ -27,7 +27,7 @@ except Exception as e:
     
 # --- ARQUIVOS DE DADOS ---
 # ATENÇÃO: Verifique se este caminho é o correto no seu ambiente!
-RAW_FILE_PATH = r"C:\Users\Usuario\Desktop\hackathoncid\household_power_consumption.txt" 
+RAW_FILE_PATH = r"household_power_consumption.txt" 
 
 # --- FUNÇÕES DE ML E ETL ---
 @st.cache_data(show_spinner="Carregando e limpando dados brutos...")
